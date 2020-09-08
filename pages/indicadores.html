@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <link rel="stylesheet" href="../assets/css/indicadores.css" />
     <title>Statistics</title>
   </head>
   <body>
@@ -11,7 +12,9 @@
       <div class="header">
         <nav class="header-menu">
           <ul class="header-menu__container">
-            <li class="header_menu__item">Indicadores</li>
+            <li class="header_menu__item header-menu__item-active">
+              Indicadores
+            </li>
             <li class="header_menu__item">Premios</li>
             <li class="header_menu__item">Trayectoria</li>
             <li class="header_menu__item">Autoevaluaci&oacute;n</li>
@@ -23,7 +26,7 @@
       <div class="sidebar">
         <div class="sidebar-imageProfile">
           <div class="sidebar-imageProfile__container">
-            <img src="assets/image/profile.png" alt="profile image" />
+            <img src="../assets/image/profile.png" alt="profile image" />
           </div>
           <span>&Uacute;ltimo ingreso:</span>
           <p>2020-09-06 9:00 a.m.</p>
@@ -46,7 +49,19 @@
           <button class="button button-secondary-outline">salir</button>
         </div>
       </div>
-      <div class="container"></div>
+      <div class="container">
+        <div class="container_charts">
+          <div class="item_charts">
+            <img src="../assets/image/chart1.png" alt="" />
+          </div>
+          <div class="item_charts">
+            <img src="../assets/image/chart2.png" alt="" />
+          </div>
+          <div class="item_charts">
+            <img src="../assets/image/chart3.png" alt="" />
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>

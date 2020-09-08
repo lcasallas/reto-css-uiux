@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <link rel="stylesheet" href="../assets/css/sugerencias.css" />
     <title>Statistics</title>
   </head>
   <body>
@@ -16,14 +17,16 @@
             <li class="header_menu__item">Trayectoria</li>
             <li class="header_menu__item">Autoevaluaci&oacute;n</li>
             <li class="header_menu__item">Supervisor</li>
-            <li class="header_menu__item">Sugerencias</li>
+            <li class="header_menu__item header-menu__item-active">
+              Sugerencias
+            </li>
           </ul>
         </nav>
       </div>
       <div class="sidebar">
         <div class="sidebar-imageProfile">
           <div class="sidebar-imageProfile__container">
-            <img src="assets/image/profile.png" alt="profile image" />
+            <img src="../assets/image/profile.png" alt="profile image" />
           </div>
           <span>&Uacute;ltimo ingreso:</span>
           <p>2020-09-06 9:00 a.m.</p>
@@ -46,7 +49,34 @@
           <button class="button button-secondary-outline">salir</button>
         </div>
       </div>
-      <div class="container"></div>
+      <div class="container">
+        <div class="container_info">
+          <p class="container_info_title">Buzón de sugerencias</p>
+          <p class="container_info_description">
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout.
+          </p>
+        </div>
+        <div class="container_form">
+          <form>
+            <select>
+              <option value="">Área destino</option>
+              <option value="">Recursos Humanos</option>
+              <option value="">Supervisor</option>
+            </select>
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Descripción de la sugerencia"
+            ></textarea>
+            <div class="container_form__action">
+              <button class="button button-primary-contained">Enviar</button>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
   </body>
 </html>

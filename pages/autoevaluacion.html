@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <link rel="stylesheet" href="../assets/css/autoevaluacion.css" />
+    <title>Statistics</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="header">
+        <nav class="header-menu">
+          <ul class="header-menu__container">
+            <li class="header_menu__item">Indicadores</li>
+            <li class="header_menu__item">Premios</li>
+            <li class="header_menu__item">Trayectoria</li>
+            <li class="header_menu__item">Autoevaluaci&oacute;n</li>
+            <li class="header_menu__item">Supervisor</li>
+            <li class="header_menu__item header-menu__item-active">
+              Sugerencias
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="sidebar">
+        <div class="sidebar-imageProfile">
+          <div class="sidebar-imageProfile__container">
+            <img src="../assets/image/profile.png" alt="profile image" />
+          </div>
+          <span>&Uacute;ltimo ingreso:</span>
+          <p>2020-09-06 9:00 a.m.</p>
+        </div>
+        <div class="sidebar-info">
+          <div class="sidebar-info__detail">
+            <span class="label">Colaborador:</span>
+            <p class="sidebar-info__data">Leonardo casallas beltran</p>
+          </div>
+          <div class="sidebar-info__detail">
+            <span class="label">Cargo:</span>
+            <p class="sidebar-info__data">Frontend software developer</p>
+          </div>
+          <div class="sidebar-info__detail">
+            <span class="label">Antiguedad:</span>
+            <p class="sidebar-info__data">2018-09-01 / 2 años</p>
+          </div>
+        </div>
+        <div class="sidebar-action">
+          <button class="button button-secondary-outline">salir</button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="container_info">
+          <p class="container_info_title">Objetivo de la autoevaluación</p>
+          <p class="container_info_description">
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout. The point
+            of using Lorem Ipsum is that it has a more-or-less normal
+            distribution of letters, as opposed to using 'Content here, content
+            here'.
+          </p>
+        </div>
+        <div class="container_form">
+          <form>
+            <div class="container_form_questions">
+              <p>Please select your gender:</p>
+              <input type="range" list="tickmarks" />
+              <datalist id="tickmarks">
+                <option value="1" label="1"></option>
+                <option value="2" label="2"></option>
+                <option value="3" label="3"></option>
+                <option value="4" label="4"></option>
+                <option value="5" label="5"></option>
+                <option value="6" label="6"></option>
+                <option value="7" label="7"></option>
+                <option value="8" label="8"></option>
+                <option value="9" label="9"></option>
+                <option value="10" label="10"></option>
+              </datalist>
+            </div>
+            <div class="container_form__action">
+              <button class="button button-primary-contained">Enviar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
