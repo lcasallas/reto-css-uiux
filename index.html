@@ -4,49 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/login.css" />
     <title>Statistics</title>
   </head>
   <body>
-    <div class="main">
-      <div class="header">
-        <nav class="header-menu">
-          <ul class="header-menu__container">
-            <li class="header_menu__item">Indicadores</li>
-            <li class="header_menu__item">Premios</li>
-            <li class="header_menu__item">Trayectoria</li>
-            <li class="header_menu__item">Autoevaluaci&oacute;n</li>
-            <li class="header_menu__item">Supervisor</li>
-            <li class="header_menu__item">Sugerencias</li>
-          </ul>
-        </nav>
+    <div class="main_login">
+      <div class="container_login">
+        <div class="container_login_img">
+          <img src="assets/image/statistics.png" alt="logo" />
+        </div>
+        <form>
+          <select>
+            <option value="">Tipo de documento</option>
+            <option value="">Cedula Ciudadania</option>
+            <option value="">Pasaporte</option>
+          </select>
+          <input type="text" name="" id="" placeholder="documento" />
+          <div class="container_login__action">
+            <button class="button button-primary-contained">Buscar</button>
+          </div>
+        </form>
       </div>
-      <div class="sidebar">
-        <div class="sidebar-imageProfile">
-          <div class="sidebar-imageProfile__container">
-            <img src="assets/image/profile.png" alt="profile image" />
-          </div>
-          <span>&Uacute;ltimo ingreso:</span>
-          <p>2020-09-06 9:00 a.m.</p>
-        </div>
-        <div class="sidebar-info">
-          <div class="sidebar-info__detail">
-            <span class="label">Colaborador:</span>
-            <p class="sidebar-info__data">Leonardo casallas beltran</p>
-          </div>
-          <div class="sidebar-info__detail">
-            <span class="label">Cargo:</span>
-            <p class="sidebar-info__data">Frontend software developer</p>
-          </div>
-          <div class="sidebar-info__detail">
-            <span class="label">Antiguedad:</span>
-            <p class="sidebar-info__data">2018-09-01 / 2 años</p>
-          </div>
-        </div>
-        <div class="sidebar-action">
-          <button class="button button-secondary-outline">salir</button>
-        </div>
-      </div>
-      <div class="container"></div>
     </div>
   </body>
 </html>
