@@ -54,3 +54,8 @@
   display: inline-flex;
   justify-content: flex-end;
 }
+
+.container_login__action a {
+  text-decoration: none;
+  color: white;
+}

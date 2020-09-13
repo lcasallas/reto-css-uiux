@@ -113,3 +113,18 @@
 .award_card__info-date {
   color: var(--color-primary);
 }
+
+@media screen and (max-width: 767px) {
+  .container_header__info {
+    display: block;
+  }
+  .award_card {
+    max-width: 100%;
+    width: 100%;
+    margin-right: 0px;
+    box-sizing: border-box;
+  }
+  .container_info_description {
+    text-align: justify;
+  }
+}
